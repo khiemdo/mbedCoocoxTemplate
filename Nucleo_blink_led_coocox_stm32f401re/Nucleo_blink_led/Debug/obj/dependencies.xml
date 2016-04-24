@@ -1,0 +1,1090 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\TARGET_NUCLEO_F401RE\TOOLCHAIN_GCC_ARM /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4 /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\TARGET_NUCLEO_F401RE\TARGET_STM /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\TARGET_NUCLEO_F401RE /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox /IE:\workspace\mbedLibInAtollic">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_nor.h" lastModified="15448c311cd">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_fsmc.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_fmc.h"/>
+      </source>
+      <source file="..\..\..\mbed\SPI.cpp" lastModified="15448c30f74">
+         <include file="..\..\..\mbed\SPI.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\system_stm32f4xx.h" lastModified="15448c31339">
+      </source>
+      <source file="..\..\..\mbed\CallChain.h" lastModified="15448c31326">
+         <include file="..\..\..\mbed\FunctionPointer.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_nor.c" lastModified="15448c311cd">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\PortIn.h" lastModified="15448c30f74">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\port_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\system_stm32f4xx.c" lastModified="15448c31339">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\hal_tick.h"/>
+      </source>
+      <source file="..\..\..\mbed\Ticker.h" lastModified="15448c31348">
+         <include file="..\..\..\mbed\TimerEvent.h"/>
+         <include file="..\..\..\mbed\FunctionPointer.h"/>
+      </source>
+      <source file="..\..\..\mbed\us_ticker.c" lastModified="15448c31795">
+         <include file="..\..\..\mbed\us_ticker_api.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PeripheralNames.h"/>
+      </source>
+      <source file="..\..\..\mbed\mbed.h" lastModified="15448c31b3e">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\mbed_error.h"/>
+         <include file="..\..\..\mbed\mbed_interface.h"/>
+         <include file="..\..\..\mbed\DigitalIn.h"/>
+         <include file="..\..\..\mbed\DigitalOut.h"/>
+         <include file="..\..\..\mbed\DigitalInOut.h"/>
+         <include file="..\..\..\mbed\BusIn.h"/>
+         <include file="..\..\..\mbed\BusOut.h"/>
+         <include file="..\..\..\mbed\BusInOut.h"/>
+         <include file="..\..\..\mbed\PortIn.h"/>
+         <include file="..\..\..\mbed\PortInOut.h"/>
+         <include file="..\..\..\mbed\PortOut.h"/>
+         <include file="..\..\..\mbed\AnalogIn.h"/>
+         <include file="..\..\..\mbed\AnalogOut.h"/>
+         <include file="..\..\..\mbed\PwmOut.h"/>
+         <include file="..\..\..\mbed\Serial.h"/>
+         <include file="..\..\..\mbed\SPI.h"/>
+         <include file="..\..\..\mbed\SPISlave.h"/>
+         <include file="..\..\..\mbed\I2C.h"/>
+         <include file="..\..\..\mbed\I2CSlave.h"/>
+         <include file="..\..\..\mbed\Ethernet.h"/>
+         <include file="..\..\..\mbed\CAN.h"/>
+         <include file="..\..\..\mbed\RawSerial.h"/>
+         <include file="..\..\..\mbed\Timer.h"/>
+         <include file="..\..\..\mbed\Ticker.h"/>
+         <include file="..\..\..\mbed\Timeout.h"/>
+         <include file="..\..\..\mbed\LowPowerTimeout.h"/>
+         <include file="..\..\..\mbed\LowPowerTicker.h"/>
+         <include file="..\..\..\mbed\LowPowerTimer.h"/>
+         <include file="..\..\..\mbed\LocalFileSystem.h"/>
+         <include file="..\..\..\mbed\InterruptIn.h"/>
+         <include file="..\..\..\mbed\wait_api.h"/>
+         <include file="..\..\..\mbed\sleep_api.h"/>
+         <include file="..\..\..\mbed\rtc_time.h"/>
+      </source>
+      <source file="..\..\..\mbed\FileHandle.h" lastModified="15448c3171e">
+      </source>
+      <source file="..\..\..\mbed\FilePath.cpp" lastModified="15448c30f4e">
+         <include file="..\..\..\mbed\FilePath.h"/>
+      </source>
+      <source file="..\..\..\mbed\rtc_api.h" lastModified="15448c31775">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dma.h" lastModified="15448c31104">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dma_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\Serial.cpp" lastModified="15448c30f84">
+         <include file="..\..\..\mbed\Serial.h"/>
+         <include file="..\..\..\mbed\wait_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dma.c" lastModified="15448c31104">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\rtc_api.c" lastModified="15448c3138d">
+         <include file="..\..\..\mbed\rtc_api.h"/>
+         <include file="..\..\..\mbed\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_conf.h" lastModified="15448c310b0">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_rcc.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_gpio.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dma.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_cortex.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_adc.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_can.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_crc.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_cryp.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dma2d.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dac.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dcmi.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_eth.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_flash.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_sram.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_nor.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_nand.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_pccard.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_sdram.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_hash.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_i2c.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_i2s.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_iwdg.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_ltdc.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_pwr.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_rng.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_rtc.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_sai.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_sd.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_spi.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_tim.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_uart.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_usart.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_irda.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_smartcard.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_wwdg.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_pcd.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_hcd.h"/>
+      </source>
+      <source file="..\..\..\mbed\FilePath.h" lastModified="15448c30f4e">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\FileSystemLike.h"/>
+         <include file="..\..\..\mbed\FileLike.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_hash_ex.h" lastModified="15448c31169">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\spi_api.h" lastModified="15448c3139d">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+         <include file="..\..\..\mbed\dma_api.h"/>
+         <include file="..\..\..\mbed\buffer.h"/>
+      </source>
+      <source file="..\..\..\mbed\LowPowerTimer.h" lastModified="15448c30f71">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\Timer.h"/>
+         <include file="..\..\..\mbed\lp_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\Ethernet.h" lastModified="15448c30f4e">
+         <include file="..\..\..\mbed\platform.h"/>
+      </source>
+      <source file="..\..\..\mbed\spi_api.c" lastModified="15448c31785">
+         <include file="..\..\..\mbed\mbed_assert.h"/>
+         <include file="..\..\..\mbed\spi_api.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+         <include file="..\..\..\mbed\pinmap.h"/>
+         <include file="..\..\..\mbed\PeripheralPins.h"/>
+         <include file="..\..\..\mbed\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\RawSerial.h" lastModified="15448c30f74">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\SerialBase.h"/>
+         <include file="..\..\..\mbed\serial_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_hash_ex.c" lastModified="15448c31169">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_rcc_ex.h" lastModified="15448c31262">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\port_api.h" lastModified="15448c3137e">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_rcc_ex.c" lastModified="15448c3120b">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\PortOut.h" lastModified="15448c30f74">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\port_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\port_api.c" lastModified="15448c3137e">
+         <include file="..\..\..\mbed\port_api.h"/>
+         <include file="..\..\..\mbed\pinmap.h"/>
+         <include file="..\..\..\mbed\gpio_api.h"/>
+         <include file="..\..\..\mbed\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dma_ex.h" lastModified="15448c31114">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_can.h" lastModified="15448c310a0">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_flash.h" lastModified="15448c31133">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_flash_ex.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_flash_ramfunc.h"/>
+      </source>
+      <source file="..\..\..\mbed\gpio_irq_api.h" lastModified="15448c3136e">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\pwmout_api.h" lastModified="15448c3138d">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dma_ex.c" lastModified="15448c31114">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\CAN.cpp" lastModified="15448c30f3e">
+         <include file="..\..\..\mbed\CAN.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_can.c" lastModified="15448c310a0">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_flash.c" lastModified="15448c31133">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\gpio_irq_api.c" lastModified="15448c31746">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+         <include file="..\..\..\mbed\gpio_irq_api.h"/>
+         <include file="..\..\..\mbed\pinmap.h"/>
+         <include file="..\..\..\mbed\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\pwmout_api.c" lastModified="15448c3138d">
+         <include file="..\..\..\mbed\pwmout_api.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+         <include file="..\..\..\mbed\pinmap.h"/>
+         <include file="..\..\..\mbed\mbed_error.h"/>
+         <include file="..\..\..\mbed\PeripheralPins.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_tim_ex.h" lastModified="15448c312f9">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_sai.h" lastModified="15448c31294">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_sai_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\SerialBase.h" lastModified="15448c30f84">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\Stream.h"/>
+         <include file="..\..\..\mbed\FunctionPointer.h"/>
+         <include file="..\..\..\mbed\serial_api.h"/>
+         <include file="..\..\..\mbed\CThunk.h"/>
+         <include file="..\..\..\mbed\dma_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\semihost_api.h" lastModified="15448c3138d">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+         <include file="..\..\..\mbed\toolchain.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_irda.h" lastModified="15448c31197">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_gpio.h" lastModified="15448c31163">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_gpio_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_tim_ex.c" lastModified="15448c312f6">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TimerEvent.cpp" lastModified="15448c31730">
+         <include file="..\..\..\mbed\TimerEvent.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+         <include file="..\..\..\mbed\ticker_api.h"/>
+         <include file="..\..\..\mbed\us_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_sai.c" lastModified="15448c31282">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\semihost_api.c" lastModified="15448c31b5d">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+         <include file="..\..\..\mbed\semihost_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_irda.c" lastModified="15448c31197">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_gpio.c" lastModified="15448c31152">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\objects.h" lastModified="15448c30f93">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PortNames.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PeripheralNames.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PinNames.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\gpio_object.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_pwr.h" lastModified="15448c311ec">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_pwr_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\can_api.h" lastModified="15448c3135e">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PinNames.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PeripheralNames.h"/>
+         <include file="..\..\..\mbed\can_helper.h"/>
+      </source>
+      <source file="..\..\..\mbed\buffer.h" lastModified="15448c31746">
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_pwr.c" lastModified="15448c311ec">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_fmpi2c_ex.c" lastModified="15448c31152">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\BusInOut.h" lastModified="15448c30f2f">
+         <include file="..\..\..\mbed\DigitalInOut.h"/>
+      </source>
+      <source file="..\..\..\mbed\SPISlave.h" lastModified="15448c30f84">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\spi_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_ltdc_ex.h" lastModified="15448c311b7">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dsi.h"/>
+      </source>
+      <source file="..\..\..\mbed\sleep_api.h" lastModified="15448c3139d">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\SPI.h" lastModified="15448c30f74">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\spi_api.h"/>
+         <include file="..\..\..\mbed\CThunk.h"/>
+         <include file="..\..\..\mbed\dma_api.h"/>
+         <include file="..\..\..\mbed\CircularBuffer.h"/>
+         <include file="..\..\..\mbed\FunctionPointer.h"/>
+         <include file="..\..\..\mbed\Transaction.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_ltdc_ex.c" lastModified="15448c311b7">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_usb.h" lastModified="15448c31339">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\Transaction.h" lastModified="15448c31348">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\FunctionPointer.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_hcd.h" lastModified="15448c31178">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_usb.h"/>
+      </source>
+      <source file="..\..\..\mbed\FileSystemLike.h" lastModified="15448c30f4e">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\FileBase.h"/>
+         <include file="..\..\..\mbed\FileHandle.h"/>
+         <include file="..\..\..\mbed\DirHandle.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\hal_tick.h" lastModified="15448c3106b">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis_nvic.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_usb.c" lastModified="15448c31329">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_cortex.h" lastModified="15448c310c0">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_hcd.c" lastModified="15448c31178">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\hal_tick.c" lastModified="15448c3106b">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\hal_tick.h"/>
+      </source>
+      <source file="..\..\..\mbed\sleep.c" lastModified="15448c3139d">
+         <include file="..\..\..\mbed\sleep_api.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_cortex.c" lastModified="15448c310b0">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\us_ticker_api.h" lastModified="15448c31795">
+         <include file="..\..\..\mbed\ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\I2C.cpp" lastModified="15448c30f5e">
+         <include file="..\..\..\mbed\I2C.h"/>
+      </source>
+      <source file="..\..\..\mbed\Ticker.cpp" lastModified="15448c31339">
+         <include file="..\..\..\mbed\Ticker.h"/>
+         <include file="..\..\..\mbed\TimerEvent.h"/>
+         <include file="..\..\..\mbed\FunctionPointer.h"/>
+         <include file="..\..\..\mbed\ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\i2c_api.h" lastModified="15448c3136e">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+         <include file="..\..\..\mbed\buffer.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_rng.h" lastModified="15448c31272">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\us_ticker_api.c" lastModified="15448c313ad">
+         <include file="..\..\..\mbed\us_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_usart.h" lastModified="15448c3130a">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\i2c_api.c" lastModified="15448c3136e">
+         <include file="..\..\..\mbed\mbed_assert.h"/>
+         <include file="..\..\..\mbed\i2c_api.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+         <include file="..\..\..\mbed\pinmap.h"/>
+         <include file="..\..\..\mbed\PeripheralPins.h"/>
+      </source>
+      <source file="..\..\..\mbed\FileLike.cpp" lastModified="15448c30f4e">
+         <include file="..\..\..\mbed\FileLike.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_rng.c" lastModified="15448c31262">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dsi.h" lastModified="15448c31124">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_gpio_ex.h" lastModified="15448c31167">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_usart.c" lastModified="15448c312fa">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dsi.c" lastModified="15448c31124">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_wwdg.h" lastModified="15448c3130a">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\BusOut.cpp" lastModified="15448c30f2f">
+         <include file="..\..\..\mbed\BusOut.h"/>
+         <include file="..\..\..\mbed\mbed_assert.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\core_cmInstr.h" lastModified="15448c31c13">
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_wwdg.c" lastModified="15448c3130a">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\BusInOut.cpp" lastModified="15448c30f2f">
+         <include file="..\..\..\mbed\BusInOut.h"/>
+         <include file="..\..\..\mbed\mbed_assert.h"/>
+      </source>
+      <source file="..\..\..\mbed\platform.h" lastModified="15448c3231e">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PinNames.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PeripheralNames.h"/>
+      </source>
+      <source file="..\..\..\mbed\DirHandle.h" lastModified="15448c31326">
+         <include file="..\..\..\mbed\FileHandle.h"/>
+      </source>
+      <source file="..\..\..\mbed\assert.c" lastModified="15448c3135b">
+         <include file="..\..\..\mbed\mbed_assert.h"/>
+         <include file="..\..\..\mbed\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\mbed_interface.h" lastModified="15448c3136e">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\CThunk.h" lastModified="15448c30f3e">
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_ltdc.h" lastModified="15448c311b7">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_ltdc_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis_nvic.h" lastModified="15448c31016">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+      </source>
+      <source file="..\..\..\mbed\mbed_interface.c" lastModified="15448c31756">
+         <include file="..\..\..\mbed\mbed_interface.h"/>
+         <include file="..\..\..\mbed\gpio_api.h"/>
+         <include file="..\..\..\mbed\wait_api.h"/>
+         <include file="..\..\..\mbed\semihost_api.h"/>
+         <include file="..\..\..\mbed\mbed_error.h"/>
+         <include file="..\..\..\mbed\toolchain.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_ltdc.c" lastModified="15448c311b7">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\FileLike.h" lastModified="15448c30f4e">
+         <include file="..\..\..\mbed\FileBase.h"/>
+         <include file="..\..\..\mbed\FileHandle.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis_nvic.c" lastModified="15448c31016">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis_nvic.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_hash.h" lastModified="15448c31169">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_hash_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\BusIn.cpp" lastModified="15448c30f2f">
+         <include file="..\..\..\mbed\BusIn.h"/>
+         <include file="..\..\..\mbed\mbed_assert.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dma2d.h" lastModified="15448c31114">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_hash.c" lastModified="15448c31169">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_fmpi2c.c" lastModified="15448c31143">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\gpio_object.h" lastModified="15448c30fa3">
+         <include file="..\..\..\mbed\mbed_assert.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PortNames.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PeripheralNames.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PinNames.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dma2d.c" lastModified="15448c31104">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_crc.h" lastModified="15448c310c0">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_spi.h" lastModified="15448c312d4">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\LocalFileSystem.cpp" lastModified="15448c3172e">
+         <include file="..\..\..\mbed\LocalFileSystem.h"/>
+         <include file="..\..\..\mbed\semihost_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\core_cm4.h" lastModified="15448c31424">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\core_cmInstr.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\core_cmFunc.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\core_cmSimd.h"/>
+      </source>
+      <source file="..\..\..\mbed\FileSystemLike.cpp" lastModified="15448c30f4e">
+         <include file="..\..\..\mbed\FileSystemLike.h"/>
+      </source>
+      <source file="..\..\..\mbed\PwmOut.h" lastModified="15448c30f74">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\pwmout_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_uart.h" lastModified="15448c312fa">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\PeripheralPins.h" lastModified="15448c30f93">
+         <include file="..\..\..\mbed\pinmap.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PeripheralNames.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_crc.c" lastModified="15448c310c0">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32_hal_legacy.h" lastModified="15448c3106b">
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_spi.c" lastModified="15448c312d4">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\Serial.h" lastModified="15448c30f84">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\Stream.h"/>
+         <include file="..\..\..\mbed\SerialBase.h"/>
+         <include file="..\..\..\mbed\serial_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\CallChain.cpp" lastModified="15448c30f3e">
+         <include file="..\..\..\mbed\CallChain.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+      </source>
+      <source file="..\..\..\mbed\rtc_time.h" lastModified="15448c31775">
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_uart.c" lastModified="15448c312fa">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\PeripheralPins.c" lastModified="15448c30f93">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\PeripheralPins.h"/>
+      </source>
+      <source file="..\..\..\mbed\LowPowerTicker.h" lastModified="15448c30f6e">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\Ticker.h"/>
+         <include file="..\..\..\mbed\lp_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\rtc_time.c" lastModified="15448c31775">
+         <include file="..\..\..\mbed\rtc_api.h"/>
+         <include file="..\..\..\mbed\rtc_time.h"/>
+         <include file="..\..\..\mbed\us_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dac.h" lastModified="15448c310df">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dac_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_i2c_ex.h" lastModified="15448c31188">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\mbed_assert.h" lastModified="15448c3136e">
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dac.c" lastModified="15448c310df">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_i2c_ex.c" lastModified="15448c31188">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\DigitalIn.h" lastModified="15448c30f3e">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\gpio_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\dma_api.h" lastModified="15448c31746">
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f401xe.h" lastModified="15448c31462">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\core_cm4.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\system_stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\mbed\board.c" lastModified="15448c3135c">
+         <include file="..\..\..\mbed\gpio_api.h"/>
+         <include file="..\..\..\mbed\wait_api.h"/>
+         <include file="..\..\..\mbed\toolchain.h"/>
+         <include file="..\..\..\mbed\mbed_interface.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_flash_ex.h" lastModified="15448c31143">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_flash_ex.c" lastModified="15448c31133">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\InterruptIn.cpp" lastModified="15448c30f5e">
+         <include file="..\..\..\mbed\InterruptIn.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_qspi.c" lastModified="15448c311ec">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\FileBase.cpp" lastModified="15448c30f4e">
+         <include file="..\..\..\mbed\FileBase.h"/>
+      </source>
+      <source file="..\..\..\mbed\toolchain.h" lastModified="15448c31795">
+      </source>
+      <source file="..\..\..\mbed\PeripheralPins.h" lastModified="15448c30f71">
+         <include file="..\..\..\mbed\pinmap.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PeripheralNames.h"/>
+      </source>
+      <source file="..\..\..\mbed\FunctionPointer.h" lastModified="15448c3172e">
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_cryp.h" lastModified="15448c310cf">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_cryp_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\ticker_api.h" lastModified="15448c313ad">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h" lastModified="15448c3108a">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_conf.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_cryp.c" lastModified="15448c310c0">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\ticker_api.c" lastModified="15448c31795">
+         <include file="..\..\..\mbed\ticker_api.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_cryp_ex.h" lastModified="15448c310cf">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_fsmc.h" lastModified="15448c31329">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.c" lastModified="15448c3107a">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_cryp_ex.c" lastModified="15448c310cf">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_sdram.h" lastModified="15448c312c5">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_fmc.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_fsmc.c" lastModified="15448c31319">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_sdram.c" lastModified="15448c312b5">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_tim.h" lastModified="15448c312e4">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_tim_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\serial_api.h" lastModified="15448c3139d">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+         <include file="..\..\..\mbed\buffer.h"/>
+         <include file="..\..\..\mbed\dma_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_i2s_ex.h" lastModified="15448c31197">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TimerEvent.h" lastModified="15448c31348">
+         <include file="..\..\..\mbed\ticker_api.h"/>
+         <include file="..\..\..\mbed\us_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_tim.c" lastModified="15448c312e4">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h" lastModified="15448c30f93">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\objects.h"/>
+      </source>
+      <source file="..\..\..\mbed\serial_api.c" lastModified="15448c31785">
+         <include file="..\..\..\mbed\mbed_assert.h"/>
+         <include file="..\..\..\mbed\serial_api.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+         <include file="..\..\..\mbed\pinmap.h"/>
+         <include file="..\..\..\mbed\PeripheralPins.h"/>
+         <include file="..\..\..\mbed\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_i2s_ex.c" lastModified="15448c31197">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\I2C.h" lastModified="15448c30f5e">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\i2c_api.h"/>
+         <include file="..\..\..\mbed\CThunk.h"/>
+         <include file="..\..\..\mbed\dma_api.h"/>
+         <include file="..\..\..\mbed\FunctionPointer.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PortNames.h" lastModified="15448c30f93">
+      </source>
+      <source file="..\..\..\mbed\retarget.cpp" lastModified="15448c32ee5">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\FileHandle.h"/>
+         <include file="..\..\..\mbed\FileSystemLike.h"/>
+         <include file="..\..\..\mbed\FilePath.h"/>
+         <include file="..\..\..\mbed\serial_api.h"/>
+         <include file="..\..\..\mbed\toolchain.h"/>
+         <include file="..\..\..\mbed\semihost_api.h"/>
+         <include file="..\..\..\mbed\mbed_interface.h"/>
+         <include file="..\..\..\mbed\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\wait_api.h" lastModified="15448c313ad">
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_cec.c" lastModified="15448c310a0">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_rtc.h" lastModified="15448c31282">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_rtc_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\wait_api.c" lastModified="15448c313ad">
+         <include file="..\..\..\mbed\wait_api.h"/>
+         <include file="..\..\..\mbed\us_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\error.c" lastModified="15448c31f16">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+         <include file="..\..\..\mbed\toolchain.h"/>
+         <include file="..\..\..\mbed\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_rtc.c" lastModified="15448c31272">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\AnalogIn.h" lastModified="15448c30f2f">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\analogin_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h" lastModified="15448c31016">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis_nvic.h"/>
+      </source>
+      <source file="..\..\..\mbed\DigitalInOut.h" lastModified="15448c30f3e">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\gpio_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_fmc.h" lastModified="15448c31319">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_fmc.c" lastModified="15448c31319">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\I2CSlave.h" lastModified="15448c30f5e">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\i2c_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\can_helper.h" lastModified="15448c3135e">
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_spdifrx.c" lastModified="15448c312c5">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_iwdg.h" lastModified="15448c311a7">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_pcd_ex.h" lastModified="15448c311dc">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_i2s.h" lastModified="15448c31188">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_i2s_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_iwdg.c" lastModified="15448c311a7">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_pcd_ex.c" lastModified="15448c311dc">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_i2s.c" lastModified="15448c31188">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_rtc_ex.h" lastModified="15448c31282">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\Stream.h" lastModified="15448c3137b">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\FileLike.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_rtc_ex.c" lastModified="15448c31282">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_eth.h" lastModified="15448c31133">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\Stream.cpp" lastModified="15448c30f84">
+         <include file="..\..\..\mbed\Stream.h"/>
+      </source>
+      <source file="..\..\..\mbed\BusIn.h" lastModified="15448c30f2f">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\DigitalIn.h"/>
+      </source>
+      <source file="..\..\..\mbed\RawSerial.cpp" lastModified="15448c3135c">
+         <include file="..\..\..\mbed\RawSerial.h"/>
+         <include file="..\..\..\mbed\wait_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_eth.c" lastModified="15448c31124">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\core_cmSimd.h" lastModified="15448c31c13">
+      </source>
+      <source file="..\..\..\mbed\SerialBase.cpp" lastModified="15448c30f84">
+         <include file="..\..\..\mbed\SerialBase.h"/>
+         <include file="..\..\..\mbed\wait_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\FileBase.h" lastModified="15448c31eee">
+         <include file="..\..\..\mbed\platform.h"/>
+      </source>
+      <source file="..\..\..\mbed\analogin_api.h" lastModified="15448c31348">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h" lastModified="15448c314eb">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32_hal_legacy.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\startup_stm32f401xe.S" lastModified="15448c3106b">
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx.h" lastModified="15448c33b72">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f401xe.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\pinmap_common.c" lastModified="15448c3137e">
+         <include file="..\..\..\mbed\pinmap.h"/>
+         <include file="..\..\..\mbed\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\analogout_api.h" lastModified="15448c31358">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\analogin_api.c" lastModified="15448c31348">
+         <include file="..\..\..\mbed\mbed_assert.h"/>
+         <include file="..\..\..\mbed\analogin_api.h"/>
+         <include file="..\..\..\mbed\wait_api.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+         <include file="..\..\..\mbed\pinmap.h"/>
+         <include file="..\..\..\mbed\mbed_error.h"/>
+         <include file="..\..\..\mbed\PeripheralPins.h"/>
+      </source>
+      <source file="..\..\..\mbed\Timeout.h" lastModified="15448c31348">
+         <include file="..\..\..\mbed\Ticker.h"/>
+      </source>
+      <source file="..\..\..\mbed\Timeout.cpp" lastModified="15448c31348">
+         <include file="..\..\..\mbed\Timeout.h"/>
+      </source>
+      <source file="..\..\..\mbed\analogout_api.c" lastModified="15448c31348">
+         <include file="..\..\..\mbed\analogout_api.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+         <include file="..\..\..\mbed\pinmap.h"/>
+         <include file="..\..\..\mbed\mbed_error.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+         <include file="..\..\..\mbed\PeripheralPins.h"/>
+      </source>
+      <source file="..\..\..\mbed\PortInOut.h" lastModified="15448c30f74">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\port_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\SPISlave.cpp" lastModified="15448c30f74">
+         <include file="..\..\..\mbed\SPISlave.h"/>
+      </source>
+      <source file="..\..\..\mbed\LocalFileSystem.h" lastModified="15448c30f5e">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\FileSystemLike.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dcmi_ex.h" lastModified="15448c310ff">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_flash_ramfunc.h" lastModified="15448c31143">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dcmi_ex.c" lastModified="15448c310ef">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\core_cmFunc.h" lastModified="15448c31c03">
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_flash_ramfunc.c" lastModified="15448c31143">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\gpio.c" lastModified="15448c3135e">
+         <include file="..\..\..\mbed\gpio_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_sdmmc.h" lastModified="15448c31329">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_sd.h" lastModified="15448c312b5">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_sdmmc.h"/>
+      </source>
+      <source file="..\..\..\mbed\ethernet_api.h" lastModified="15448c3135e">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_i2c.h" lastModified="15448c31188">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_i2c_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_sdmmc.c" lastModified="15448c31329">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\Timer.cpp" lastModified="15448c31348">
+         <include file="..\..\..\mbed\Timer.h"/>
+         <include file="..\..\..\mbed\ticker_api.h"/>
+         <include file="..\..\..\mbed\us_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_sd.c" lastModified="15448c312b5">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_i2c.c" lastModified="15448c31178">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\InterruptManager.cpp" lastModified="15448c31346">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+         <include file="..\..\..\mbed\InterruptManager.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PeripheralNames.h" lastModified="15448c30f93">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+      </source>
+      <source file="..\..\..\mbed\BusOut.h" lastModified="15448c30f3e">
+         <include file="..\..\..\mbed\DigitalOut.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_pccard.h" lastModified="15448c311cd">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_fsmc.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_fmc.h"/>
+      </source>
+      <source file="..\..\..\mbed\pinmap.h" lastModified="15448c3137e">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PinNames.h"/>
+      </source>
+      <source file="..\..\..\mbed\Ethernet.cpp" lastModified="15448c30f3e">
+         <include file="..\..\..\mbed\Ethernet.h"/>
+         <include file="..\..\..\mbed\ethernet_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_nand.h" lastModified="15448c311cb">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_fsmc.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_fmc.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_pccard.c" lastModified="15448c311cd">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\pinmap.c" lastModified="15448c3137e">
+         <include file="..\..\..\mbed\mbed_assert.h"/>
+         <include file="..\..\..\mbed\pinmap.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PortNames.h"/>
+         <include file="..\..\..\mbed\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_pwr_ex.h" lastModified="15448c311ec">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\CircularBuffer.h" lastModified="15448c30f3e">
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_nand.c" lastModified="15448c311c6">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_pwr_ex.c" lastModified="15448c311ec">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\InterruptManager.h" lastModified="15448c31346">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+         <include file="..\..\..\mbed\CallChain.h"/>
+      </source>
+      <source file="..\..\..\mbed\Timer.h" lastModified="15448c31348">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\InterruptIn.h" lastModified="15448c30f5e">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\gpio_api.h"/>
+         <include file="..\..\..\mbed\gpio_irq_api.h"/>
+         <include file="..\..\..\mbed\FunctionPointer.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_smartcard.h" lastModified="15448c312c5">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dac_ex.h" lastModified="15448c310df">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\mbed_overrides.c" lastModified="15448c3137e">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_lptim.c" lastModified="15448c311a7">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\mbed_error.h" lastModified="15448c3136e">
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_msp_template.c" lastModified="15448c311b7">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\I2CSlave.cpp" lastModified="15448c30f5e">
+         <include file="..\..\..\mbed\I2CSlave.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dac_ex.c" lastModified="15448c310df">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_smartcard.c" lastModified="15448c312c5">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_adc_ex.h" lastModified="15448c3109b">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_rcc.h" lastModified="15448c311fc">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_rcc_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_adc_ex.c" lastModified="15448c3108a">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\CAN.h" lastModified="15448c30f3e">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\can_api.h"/>
+         <include file="..\..\..\mbed\can_helper.h"/>
+         <include file="..\..\..\mbed\FunctionPointer.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_adc.h" lastModified="15448c3108a">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_adc_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_rcc.c" lastModified="15448c311fc">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\AnalogOut.h" lastModified="15448c30f2f">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\analogout_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_adc.c" lastModified="15448c3108a">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\main.cpp" lastModified="15448cc8704">
+         <include file="..\..\..\mbed\mbed.h"/>
+      </source>
+      <source file="..\..\..\mbed\LowPowerTimeout.h" lastModified="15448c30f70">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\lp_ticker_api.h"/>
+         <include file="..\..\..\mbed\LowPowerTicker.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\PinNames.h" lastModified="15448c30f93">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\cmsis.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dcmi.h" lastModified="15448c310ef">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dcmi_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\lp_ticker_api.h" lastModified="15448c3136e">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+         <include file="..\..\..\mbed\ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_pcd.h" lastModified="15448c311dc">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_usb.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_pcd_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_sram.h" lastModified="15448c312e4">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_fsmc.h"/>
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_ll_fmc.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_dcmi.c" lastModified="15448c310ef">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\lp_ticker_api.c" lastModified="15448c3136e">
+         <include file="..\..\..\mbed\lp_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_sai_ex.h" lastModified="15448c312a6">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\gpio_api.h" lastModified="15448c3135e">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\TARGET_STM\TARGET_STM32F4\TARGET_NUCLEO_F401RE\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_pcd.c" lastModified="15448c311dc">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\DigitalOut.h" lastModified="15448c30f3e">
+         <include file="..\..\..\mbed\platform.h"/>
+         <include file="..\..\..\mbed\gpio_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_sram.c" lastModified="15448c312e4">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal_sai_ex.c" lastModified="15448c31296">
+         <include file="..\..\..\mbed\TARGET_NUCLEO_F401RE\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\gpio_api.c" lastModified="15448c3135e">
+         <include file="..\..\..\mbed\mbed_assert.h"/>
+         <include file="..\..\..\mbed\gpio_api.h"/>
+         <include file="..\..\..\mbed\pinmap.h"/>
+         <include file="..\..\..\mbed\mbed_error.h"/>
+      </source>
+   </includePath>
+</dependencies>
