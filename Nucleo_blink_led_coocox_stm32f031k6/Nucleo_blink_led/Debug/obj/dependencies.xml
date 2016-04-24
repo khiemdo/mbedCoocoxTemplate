@@ -1,0 +1,933 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0 /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\targets\hal /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\targets /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6 /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\hal /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\cmsis\TARGET_STM\TARGET_STM32F0 /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\targets\hal\TARGET_STM /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\targets\hal\TARGET_STM\TARGET_STM32F0 /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\TOOLCHAIN_GCC_ARM /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\cmsis /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\targets\cmsis /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\common /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6 /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\targets\cmsis\TARGET_STM /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\api /IE:\workspace\mbedLibInAtollic\Nucleo_blink_led_coocox\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6">
+      <source file="..\..\..\mbed\api\DigitalOut.h" lastModified="151c746c72c">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\gpio_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\ticker_api.c" lastModified="151c746cc4a">
+         <include file="..\..\..\mbed\hal\ticker_api.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\Timeout.h" lastModified="151c746c798">
+         <include file="..\..\..\mbed\api\Ticker.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\sleep.c" lastModified="151c747158f">
+         <include file="..\..\..\mbed\hal\sleep_api.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\wait_api.h" lastModified="151c746c7cd">
+      </source>
+      <source file="..\..\..\mbed\api\CircularBuffer.h" lastModified="151c746c720">
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_i2s.h" lastModified="151c746de2a">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\retarget.cpp" lastModified="15448dc1e84">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\api\FileHandle.h"/>
+         <include file="..\..\..\mbed\api\FileSystemLike.h"/>
+         <include file="..\..\..\mbed\api\FilePath.h"/>
+         <include file="..\..\..\mbed\hal\serial_api.h"/>
+         <include file="..\..\..\mbed\api\toolchain.h"/>
+         <include file="..\..\..\mbed\api\semihost_api.h"/>
+         <include file="..\..\..\mbed\api\mbed_interface.h"/>
+         <include file="..\..\..\mbed\api\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_crc_ex.h" lastModified="151c746ddc9">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_cortex.h" lastModified="151c746ddb7">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\SPI.cpp" lastModified="151c746c812">
+         <include file="..\..\..\mbed\api\SPI.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\SerialBase.h" lastModified="151c746c78d">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\api\Stream.h"/>
+         <include file="..\..\..\mbed\api\FunctionPointer.h"/>
+         <include file="..\..\..\mbed\hal\serial_api.h"/>
+         <include file="..\..\..\mbed\api\CThunk.h"/>
+         <include file="..\..\..\mbed\hal\dma_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_i2s.c" lastModified="151c746de26">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\dma_api.h" lastModified="151c746cc63">
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_crc_ex.c" lastModified="151c746ddc4">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_cortex.c" lastModified="151c746ddb1">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\us_ticker_api.h" lastModified="151c746cc98">
+         <include file="..\..\..\mbed\hal\ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\BusIn.cpp" lastModified="151c746c7d2">
+         <include file="..\..\..\mbed\api\BusIn.h"/>
+         <include file="..\..\..\mbed\api\mbed_assert.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\core_cmInstr.h" lastModified="151c7470e02">
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_smartcard_ex.h" lastModified="151c746de9c">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\core_cmFunc.h" lastModified="151c7470dff">
+      </source>
+      <source file="..\..\..\mbed\common\BusOut.cpp" lastModified="151c746c7db">
+         <include file="..\..\..\mbed\api\BusOut.h"/>
+         <include file="..\..\..\mbed\api\mbed_assert.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\I2C.h" lastModified="151c746c74e">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\i2c_api.h"/>
+         <include file="..\..\..\mbed\api\CThunk.h"/>
+         <include file="..\..\..\mbed\hal\dma_api.h"/>
+         <include file="..\..\..\mbed\api\FunctionPointer.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_smartcard_ex.c" lastModified="151c746de98">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\gpio_api.h" lastModified="151c746c884">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_conf.h" lastModified="15448dc0679">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_rcc.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_gpio.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_dma.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_cortex.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_adc.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_can.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_cec.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_comp.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_crc.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_dac.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_flash.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_i2c.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_i2s.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_irda.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_iwdg.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_pcd.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_pwr.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_rtc.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_smartcard.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_smbus.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_spi.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_tim.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_tsc.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_uart.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_usart.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_wwdg.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\gpio.c" lastModified="151c746c844">
+         <include file="..\..\..\mbed\hal\gpio_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\SerialBase.cpp" lastModified="151c746c81e">
+         <include file="..\..\..\mbed\api\SerialBase.h"/>
+         <include file="..\..\..\mbed\api\wait_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\InterruptManager.cpp" lastModified="151c746cbf0">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+         <include file="..\..\..\mbed\api\InterruptManager.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h" lastModified="151c746e1c9">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\stm32f0xx.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32_hal_legacy.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\AnalogIn.h" lastModified="151c746c702">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\analogin_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\PortInOut.h" lastModified="151c746c772">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\port_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\RawSerial.cpp" lastModified="15448dc0711">
+         <include file="..\..\..\mbed\api\RawSerial.h"/>
+         <include file="..\..\..\mbed\api\wait_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\gpio_irq_api.c" lastModified="151c7471950">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+         <include file="..\..\..\mbed\hal\gpio_irq_api.h"/>
+         <include file="..\..\..\mbed\hal\pinmap.h"/>
+         <include file="..\..\..\mbed\api\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\CAN.cpp" lastModified="151c746c7dd">
+         <include file="..\..\..\mbed\api\CAN.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\analogin_api.h" lastModified="151c746c86d">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\SPISlave.cpp" lastModified="151c746c817">
+         <include file="..\..\..\mbed\api\SPISlave.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\I2CSlave.h" lastModified="151c746c752">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\i2c_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\FunctionPointer.h" lastModified="151c746cf1b">
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_tsc.h" lastModified="151c746ded5">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\us_ticker_api.c" lastModified="151c746c865">
+         <include file="..\..\..\mbed\hal\us_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_irda.h" lastModified="151c746de35">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_irda_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_gpio.h" lastModified="151c746de0a">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_gpio_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_tsc.c" lastModified="151c746ded0">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\FileBase.h" lastModified="151c746d6d7">
+         <include file="..\..\..\mbed\api\platform.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_i2c.h" lastModified="151c746de18">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_i2c_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_irda.c" lastModified="151c746de2e">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_gpio.c" lastModified="151c746de06">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\PeripheralPins.h" lastModified="151c7471487">
+         <include file="..\..\..\mbed\hal\pinmap.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PeripheralNames.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_i2c.c" lastModified="151c746de13">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\port_api.h" lastModified="151c746c895">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\rtc_time.c" lastModified="151c746cc41">
+         <include file="..\..\..\mbed\hal\rtc_api.h"/>
+         <include file="..\..\..\mbed\api\rtc_time.h"/>
+         <include file="..\..\..\mbed\hal\us_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\hal_tick.h" lastModified="151c746dc0b">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\stm32f0xx.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis_nvic.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\hal_tick.c" lastModified="151c746dc07">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\hal_tick.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\ethernet_api.h" lastModified="151c746c880">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\assert.c" lastModified="151c746c838">
+         <include file="..\..\..\mbed\api\mbed_assert.h"/>
+         <include file="..\..\..\mbed\api\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\pinmap.c" lastModified="151c7471578">
+         <include file="..\..\..\mbed\api\mbed_assert.h"/>
+         <include file="..\..\..\mbed\hal\pinmap.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PortNames.h"/>
+         <include file="..\..\..\mbed\api\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\PortOut.h" lastModified="151c746c776">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\port_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h" lastModified="151c746dd7c">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_conf.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\Ethernet.cpp" lastModified="151c746c7e6">
+         <include file="..\..\..\mbed\api\Ethernet.h"/>
+         <include file="..\..\..\mbed\hal\ethernet_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_i2c_ex.h" lastModified="151c746de22">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_wwdg.h" lastModified="151c746df00">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\Stream.h" lastModified="151c746cb78">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\api\FileLike.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\mbed.h" lastModified="15448dc0af5">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\api\mbed_error.h"/>
+         <include file="..\..\..\mbed\api\mbed_interface.h"/>
+         <include file="..\..\..\mbed\api\DigitalIn.h"/>
+         <include file="..\..\..\mbed\api\DigitalOut.h"/>
+         <include file="..\..\..\mbed\api\DigitalInOut.h"/>
+         <include file="..\..\..\mbed\api\BusIn.h"/>
+         <include file="..\..\..\mbed\api\BusOut.h"/>
+         <include file="..\..\..\mbed\api\BusInOut.h"/>
+         <include file="..\..\..\mbed\api\PortIn.h"/>
+         <include file="..\..\..\mbed\api\PortInOut.h"/>
+         <include file="..\..\..\mbed\api\PortOut.h"/>
+         <include file="..\..\..\mbed\api\AnalogIn.h"/>
+         <include file="..\..\..\mbed\api\AnalogOut.h"/>
+         <include file="..\..\..\mbed\api\PwmOut.h"/>
+         <include file="..\..\..\mbed\api\Serial.h"/>
+         <include file="..\..\..\mbed\api\SPI.h"/>
+         <include file="..\..\..\mbed\api\SPISlave.h"/>
+         <include file="..\..\..\mbed\api\I2C.h"/>
+         <include file="..\..\..\mbed\api\I2CSlave.h"/>
+         <include file="..\..\..\mbed\api\Ethernet.h"/>
+         <include file="..\..\..\mbed\api\CAN.h"/>
+         <include file="..\..\..\mbed\api\RawSerial.h"/>
+         <include file="..\..\..\mbed\api\Timer.h"/>
+         <include file="..\..\..\mbed\api\Ticker.h"/>
+         <include file="..\..\..\mbed\api\Timeout.h"/>
+         <include file="..\..\..\mbed\api\LowPowerTimeout.h"/>
+         <include file="..\..\..\mbed\api\LowPowerTicker.h"/>
+         <include file="..\..\..\mbed\api\LowPowerTimer.h"/>
+         <include file="..\..\..\mbed\api\LocalFileSystem.h"/>
+         <include file="..\..\..\mbed\api\InterruptIn.h"/>
+         <include file="..\..\..\mbed\api\wait_api.h"/>
+         <include file="..\..\..\mbed\hal\sleep_api.h"/>
+         <include file="..\..\..\mbed\api\rtc_time.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.c" lastModified="151c746dd77">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_i2c_ex.c" lastModified="151c746de1d">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\serial_api.c" lastModified="151c7471972">
+         <include file="..\..\..\mbed\api\mbed_assert.h"/>
+         <include file="..\..\..\mbed\hal\serial_api.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+         <include file="..\..\..\mbed\hal\pinmap.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\PeripheralPins.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\rtc_api.c" lastModified="15448dc16d7">
+         <include file="..\..\..\mbed\hal\rtc_api.h"/>
+         <include file="..\..\..\mbed\api\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_wwdg.c" lastModified="151c746defb">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_rcc.h" lastModified="151c746de6d">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_rcc_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\AnalogOut.h" lastModified="151c746c706">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\analogout_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\mbed_interface.c" lastModified="151c746cc33">
+         <include file="..\..\..\mbed\api\mbed_interface.h"/>
+         <include file="..\..\..\mbed\hal\gpio_api.h"/>
+         <include file="..\..\..\mbed\api\wait_api.h"/>
+         <include file="..\..\..\mbed\api\semihost_api.h"/>
+         <include file="..\..\..\mbed\api\mbed_error.h"/>
+         <include file="..\..\..\mbed\api\toolchain.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\pwmout_api.h" lastModified="151c746c899">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\sleep_api.h" lastModified="151c746c8a4">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_adc.h" lastModified="151c746dd84">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_adc_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\spi_api.c" lastModified="151c747197c">
+         <include file="..\..\..\mbed\api\mbed_assert.h"/>
+         <include file="..\..\..\mbed\hal\spi_api.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+         <include file="..\..\..\mbed\hal\pinmap.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\PeripheralPins.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\I2CSlave.cpp" lastModified="151c746c7ff">
+         <include file="..\..\..\mbed\api\I2CSlave.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_rcc.c" lastModified="151c746de68">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\I2C.cpp" lastModified="151c746c7fb">
+         <include file="..\..\..\mbed\api\I2C.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\pinmap.h" lastModified="151c746c892">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PinNames.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\InterruptIn.h" lastModified="151c746c756">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\gpio_api.h"/>
+         <include file="..\..\..\mbed\hal\gpio_irq_api.h"/>
+         <include file="..\..\..\mbed\api\FunctionPointer.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_adc.c" lastModified="151c746dd80">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\analogout_api.c" lastModified="151c747155e">
+         <include file="..\..\..\mbed\api\mbed_assert.h"/>
+         <include file="..\..\..\mbed\hal\analogout_api.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+         <include file="..\..\..\mbed\hal\pinmap.h"/>
+         <include file="..\..\..\mbed\api\mbed_error.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\PeripheralPins.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\wait_api.c" lastModified="151c746c868">
+         <include file="..\..\..\mbed\api\wait_api.h"/>
+         <include file="..\..\..\mbed\hal\us_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\gpio_object.h" lastModified="151c747156c">
+         <include file="..\..\..\mbed\api\mbed_assert.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PortNames.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PeripheralNames.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PinNames.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_usart_ex.h" lastModified="151c746def7">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\BusOut.h" lastModified="151c746c710">
+         <include file="..\..\..\mbed\api\DigitalOut.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_pcd.h" lastModified="151c746de4a">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_pcd_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\gpio_api.c" lastModified="151c7471563">
+         <include file="..\..\..\mbed\api\mbed_assert.h"/>
+         <include file="..\..\..\mbed\hal\gpio_api.h"/>
+         <include file="..\..\..\mbed\hal\pinmap.h"/>
+         <include file="..\..\..\mbed\api\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_pcd.c" lastModified="151c746de46">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\BusIn.h" lastModified="151c746c70a">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\api\DigitalIn.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_uart.h" lastModified="151c746dee0">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_uart_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\CallChain.h" lastModified="151c746cb05">
+         <include file="..\..\..\mbed\api\FunctionPointer.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\semihost_api.h" lastModified="151c746c7c7">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+         <include file="..\..\..\mbed\api\toolchain.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_uart.c" lastModified="151c746deda">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\FileSystemLike.h" lastModified="151c746c746">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\api\FileBase.h"/>
+         <include file="..\..\..\mbed\api\FileHandle.h"/>
+         <include file="..\..\..\mbed\api\DirHandle.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\InterruptIn.cpp" lastModified="151c746c803">
+         <include file="..\..\..\mbed\api\InterruptIn.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_flash_ex.h" lastModified="151c746de01">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_flash_ex.c" lastModified="151c746ddfc">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_dma.h" lastModified="151c746dde9">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_dma_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_flash.h" lastModified="151c746ddf7">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_flash_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_dma.c" lastModified="151c746dde5">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PortNames.h" lastModified="151c74714da">
+      </source>
+      <source file="..\..\..\mbed\api\RawSerial.h" lastModified="151c746c77d">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\api\SerialBase.h"/>
+         <include file="..\..\..\mbed\hal\serial_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\TimerEvent.cpp" lastModified="151c746cc1b">
+         <include file="..\..\..\mbed\api\TimerEvent.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+         <include file="..\..\..\mbed\hal\ticker_api.h"/>
+         <include file="..\..\..\mbed\hal\us_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_flash.c" lastModified="151c746ddf2">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\semihost_api.c" lastModified="151c746d02c">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+         <include file="..\..\..\mbed\api\semihost_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\CAN.h" lastModified="151c746c713">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\can_api.h"/>
+         <include file="..\..\..\mbed\api\can_helper.h"/>
+         <include file="..\..\..\mbed\api\FunctionPointer.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\stm32f031x6.h" lastModified="151c746dff9">
+         <include file="..\..\..\mbed\targets\cmsis\core_cm0.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\system_stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\Timeout.cpp" lastModified="151c746c82b">
+         <include file="..\..\..\mbed\api\Timeout.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\LocalFileSystem.h" lastModified="151c746c75c">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\api\FileSystemLike.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\stm32f0xx.h" lastModified="151c74716ae">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\stm32f031x6.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_can.h" lastModified="151c746dd96">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_spi_ex.h" lastModified="151c746deb7">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\i2c_api.c" lastModified="151c747156f">
+         <include file="..\..\..\mbed\api\mbed_assert.h"/>
+         <include file="..\..\..\mbed\hal\i2c_api.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+         <include file="..\..\..\mbed\hal\pinmap.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\PeripheralPins.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\PortIn.h" lastModified="151c746c76e">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\port_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_can.c" lastModified="151c746dd91">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_spi_ex.c" lastModified="151c746deb2">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\TimerEvent.h" lastModified="151c746c7a0">
+         <include file="..\..\..\mbed\hal\ticker_api.h"/>
+         <include file="..\..\..\mbed\hal\us_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_usart.h" lastModified="151c746def4">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_usart_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\board.c" lastModified="151c746c83b">
+         <include file="..\..\..\mbed\hal\gpio_api.h"/>
+         <include file="..\..\..\mbed\api\wait_api.h"/>
+         <include file="..\..\..\mbed\api\toolchain.h"/>
+         <include file="..\..\..\mbed\api\mbed_interface.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\FilePath.h" lastModified="151c746c743">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\api\FileSystemLike.h"/>
+         <include file="..\..\..\mbed\api\FileLike.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_usart.c" lastModified="151c746deef">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\Ethernet.h" lastModified="151c746c732">
+         <include file="..\..\..\mbed\api\platform.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\FilePath.cpp" lastModified="151c746c7f2">
+         <include file="..\..\..\mbed\api\FilePath.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\Stream.cpp" lastModified="151c746c823">
+         <include file="..\..\..\mbed\api\Stream.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\gpio_irq_api.h" lastModified="151c746c887">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_rtc_ex.h" lastModified="151c746de8a">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32_hal_legacy.h" lastModified="151c746dd73">
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\us_ticker.c" lastModified="151c7471980">
+         <include file="..\..\..\mbed\hal\us_ticker_api.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PeripheralNames.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_rtc_ex.c" lastModified="151c746de85">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\Timer.cpp" lastModified="151c746c82e">
+         <include file="..\..\..\mbed\api\Timer.h"/>
+         <include file="..\..\..\mbed\hal\ticker_api.h"/>
+         <include file="..\..\..\mbed\hal\us_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\buffer.h" lastModified="151c746cc5c">
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_pwr.h" lastModified="151c746de59">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_pwr_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\port_api.c" lastModified="151c747157c">
+         <include file="..\..\..\mbed\hal\port_api.h"/>
+         <include file="..\..\..\mbed\hal\pinmap.h"/>
+         <include file="..\..\..\mbed\hal\gpio_api.h"/>
+         <include file="..\..\..\mbed\api\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h" lastModified="15448dc165f">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\objects.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_pwr.c" lastModified="151c746de55">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_irda_ex.h" lastModified="151c746de3c">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\Ticker.h" lastModified="151c746c794">
+         <include file="..\..\..\mbed\api\TimerEvent.h"/>
+         <include file="..\..\..\mbed\api\FunctionPointer.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\DirHandle.h" lastModified="151c746cb17">
+         <include file="..\..\..\mbed\api\FileHandle.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\mbed_interface.h" lastModified="151c746c7ba">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_pcd_ex.h" lastModified="151c746de51">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\analogout_api.h" lastModified="151c746c871">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\spi_api.h" lastModified="151c746c8a7">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+         <include file="..\..\..\mbed\hal\dma_api.h"/>
+         <include file="..\..\..\mbed\hal\buffer.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\LocalFileSystem.cpp" lastModified="151c746cfdc">
+         <include file="..\..\..\mbed\api\LocalFileSystem.h"/>
+         <include file="..\..\..\mbed\api\semihost_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_pcd_ex.c" lastModified="151c746de4e">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\Timer.h" lastModified="151c746c79c">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\mbed_overrides.c" lastModified="15448dc16cf">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\system_stm32f0xx.h" lastModified="151c746dc1d">
+      </source>
+      <source file="..\..\..\mbed\api\Transaction.h" lastModified="151c746c7a4">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\api\FunctionPointer.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\LowPowerTimeout.h" lastModified="151c746c766">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\lp_ticker_api.h"/>
+         <include file="..\..\..\mbed\api\LowPowerTicker.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\objects.h" lastModified="151c74714e4">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PortNames.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PeripheralNames.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PinNames.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\gpio_object.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\system_stm32f0xx.c" lastModified="15448dc0664">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\stm32f0xx.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\hal_tick.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\error.c" lastModified="151c746d3f6">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+         <include file="..\..\..\mbed\api\toolchain.h"/>
+         <include file="..\..\..\mbed\api\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\FileLike.cpp" lastModified="151c746c7ed">
+         <include file="..\..\..\mbed\api\FileLike.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\rtc_api.h" lastModified="151c746cc85">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\LowPowerTicker.h" lastModified="151c746c761">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\api\Ticker.h"/>
+         <include file="..\..\..\mbed\hal\lp_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\can_helper.h" lastModified="151c746c7a8">
+      </source>
+      <source file="..\..\..\mbed\hal\ticker_api.h" lastModified="151c746c8ac">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis_nvic.h" lastModified="151c746dc03">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis_nvic.c" lastModified="15448dc0660">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis_nvic.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\pinmap_common.c" lastModified="151c746c850">
+         <include file="..\..\..\mbed\hal\pinmap.h"/>
+         <include file="..\..\..\mbed\api\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_pwr_ex.h" lastModified="151c746de63">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PeripheralNames.h" lastModified="151c74714ca">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\DigitalIn.h" lastModified="151c746c724">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\gpio_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_pwr_ex.c" lastModified="151c746de5e">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_dac_ex.h" lastModified="151c746dddc">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\BusInOut.h" lastModified="151c746c70d">
+         <include file="..\..\..\mbed\api\DigitalInOut.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\SPISlave.h" lastModified="151c746c786">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\spi_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_iwdg.h" lastModified="151c746de43">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\SPI.h" lastModified="151c746c781">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\spi_api.h"/>
+         <include file="..\..\..\mbed\api\CThunk.h"/>
+         <include file="..\..\..\mbed\hal\dma_api.h"/>
+         <include file="..\..\..\mbed\api\CircularBuffer.h"/>
+         <include file="..\..\..\mbed\api\FunctionPointer.h"/>
+         <include file="..\..\..\mbed\api\Transaction.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_adc_ex.h" lastModified="151c746dd8e">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_dac_ex.c" lastModified="151c746ddd7">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PinNames.h" lastModified="151c74714d5">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_iwdg.c" lastModified="151c746de40">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_adc_ex.c" lastModified="151c746dd88">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_gpio_ex.h" lastModified="151c746de0e">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\toolchain.h" lastModified="151c746cbb2">
+      </source>
+      <source file="..\..\..\mbed\api\platform.h" lastModified="151c746d75e">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PinNames.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PeripheralNames.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\mbed_assert.h" lastModified="151c746c7af">
+      </source>
+      <source file="..\..\..\mbed\common\Serial.cpp" lastModified="151c746c81b">
+         <include file="..\..\..\mbed\api\Serial.h"/>
+         <include file="..\..\..\mbed\api\wait_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_spi.h" lastModified="151c746dead">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_spi_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_crc.h" lastModified="151c746ddbe">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_crc_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\FileSystemLike.cpp" lastModified="151c746c7f7">
+         <include file="..\..\..\mbed\api\FileSystemLike.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_spi.c" lastModified="151c746dea9">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_crc.c" lastModified="151c746ddbb">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\LowPowerTimer.h" lastModified="151c746c76a">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\api\Timer.h"/>
+         <include file="..\..\..\mbed\hal\lp_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\BusInOut.cpp" lastModified="151c746c7d7">
+         <include file="..\..\..\mbed\api\BusInOut.h"/>
+         <include file="..\..\..\mbed\api\mbed_assert.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\lp_ticker_api.h" lastModified="151c746c88f">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+         <include file="..\..\..\mbed\hal\ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\can_api.h" lastModified="15448dc032e">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PinNames.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PeripheralNames.h"/>
+         <include file="..\..\..\mbed\api\can_helper.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\FileLike.h" lastModified="151c746c73f">
+         <include file="..\..\..\mbed\api\FileBase.h"/>
+         <include file="..\..\..\mbed\api\FileHandle.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_dac.h" lastModified="151c746ddd3">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_dac_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_comp.h" lastModified="151c746dda9">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_dac.c" lastModified="151c746ddce">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_comp.c" lastModified="151c746dda5">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\hal\serial_api.h" lastModified="151c746c8a1">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+         <include file="..\..\..\mbed\hal\buffer.h"/>
+         <include file="..\..\..\mbed\hal\dma_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\pwmout_api.c" lastModified="151c7471580">
+         <include file="..\..\..\mbed\hal\pwmout_api.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+         <include file="..\..\..\mbed\hal\pinmap.h"/>
+         <include file="..\..\..\mbed\api\mbed_error.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\PeripheralPins.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\mbed_error.h" lastModified="151c746c7b6">
+      </source>
+      <source file="..\..\..\mbed\common\CallChain.cpp" lastModified="151c746c7e1">
+         <include file="..\..\..\mbed\api\CallChain.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\TOOLCHAIN_GCC_ARM\startup_stm32f031x6.s" lastModified="151c746dbed">
+      </source>
+      <source file="..\..\..\mbed\hal\i2c_api.h" lastModified="15448dc033d">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\device.h"/>
+         <include file="..\..\..\mbed\hal\buffer.h"/>
+         <include file="..\..\..\mbed\hal\dma_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_smbus.h" lastModified="151c746dea5">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\analogin_api.c" lastModified="151c747155a">
+         <include file="..\..\..\mbed\api\mbed_assert.h"/>
+         <include file="..\..\..\mbed\hal\analogin_api.h"/>
+         <include file="..\..\..\mbed\api\wait_api.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+         <include file="..\..\..\mbed\hal\pinmap.h"/>
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\PeripheralPins.h"/>
+         <include file="..\..\..\mbed\api\mbed_error.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\CThunk.h" lastModified="151c746c719">
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h" lastModified="151c746dbfa">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\stm32f0xx.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis_nvic.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_smbus.c" lastModified="151c746dea0">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\lp_ticker_api.c" lastModified="151c746c848">
+         <include file="..\..\..\mbed\hal\lp_ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_rcc_ex.h" lastModified="151c746de76">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\PeripheralPins.c" lastModified="151c74714d0">
+         <include file="..\..\..\mbed\targets\hal\TARGET_STM\TARGET_STM32F0\PeripheralPins.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_rcc_ex.c" lastModified="151c746de72">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_smartcard.h" lastModified="151c746de93">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_smartcard_ex.h"/>
+      </source>
+      <source file="..\..\..\main.cpp" lastModified="15448cc8704">
+         <include file="..\..\..\mbed\api\mbed.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_tim.h" lastModified="151c746dec2">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_tim_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\core_cm0.h" lastModified="151c7470601">
+         <include file="..\..\..\mbed\targets\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_smartcard.c" lastModified="151c746de8e">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_dma_ex.h" lastModified="151c746dded">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_tim.c" lastModified="151c746debd">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\rtc_time.h" lastModified="151c746cbaa">
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_cec.h" lastModified="151c746dda1">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\common\FileBase.cpp" lastModified="151c746c7ea">
+         <include file="..\..\..\mbed\api\FileBase.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\DigitalInOut.h" lastModified="151c746c729">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\gpio_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_uart_ex.h" lastModified="151c746dee9">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\PwmOut.h" lastModified="151c746c77a">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\hal\pwmout_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_cec.c" lastModified="151c746dd9c">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\Serial.h" lastModified="151c746c78a">
+         <include file="..\..\..\mbed\api\platform.h"/>
+         <include file="..\..\..\mbed\api\Stream.h"/>
+         <include file="..\..\..\mbed\api\SerialBase.h"/>
+         <include file="..\..\..\mbed\hal\serial_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_uart_ex.c" lastModified="151c746dee5">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\FileHandle.h" lastModified="151c746cf0a">
+      </source>
+      <source file="..\..\..\mbed\common\Ticker.cpp" lastModified="151c746c827">
+         <include file="..\..\..\mbed\api\Ticker.h"/>
+         <include file="..\..\..\mbed\api\TimerEvent.h"/>
+         <include file="..\..\..\mbed\api\FunctionPointer.h"/>
+         <include file="..\..\..\mbed\hal\ticker_api.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_tim_ex.h" lastModified="151c746decb">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_rtc.h" lastModified="151c746de80">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_def.h"/>
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_rtc_ex.h"/>
+      </source>
+      <source file="..\..\..\mbed\api\InterruptManager.h" lastModified="151c746cb41">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\TARGET_NUCLEO_F031K6\cmsis.h"/>
+         <include file="..\..\..\mbed\api\CallChain.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_tim_ex.c" lastModified="151c746dec6">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+      <source file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal_rtc.c" lastModified="151c746de7a">
+         <include file="..\..\..\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F0\stm32f0xx_hal.h"/>
+      </source>
+   </includePath>
+</dependencies>
